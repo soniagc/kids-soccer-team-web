@@ -1,0 +1,166 @@
+/* Etiqueta universal o "de reset", serveix per
+evitar configuracions automàtiques de marge i 
+padding en diferents navegadors
+que poden alterar el nostre resultat */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-image: url(../Updated-Banner-Photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 455px;
+    /* Les vores es poden editar utlitzant diferents
+    tags per a cada canvi o ordenant els valors en
+    el tag genèric: gruix-tipus-color */
+    border: medium solid black;
+    position: relative;
+    z-index: -1;
+    top: 48px;
+}
+.headingtitle {
+    background-color: transparent;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Afegir una vora al text, especificant
+    gruix de la vora i color, no funciona amb
+    tots els navegadors, sí Chr-Saf-iPhone */
+    font-size: 27px;
+    top: 18px;
+}
+.homecase {
+    background-color:white;
+    background-size: 100px;
+    border: medium solid black;
+    position: relative;
+    /* per a moure la imatge 
+    dins de la pàgina, abans 
+    cal definir l'atribut "position" */
+    bottom: -401px;
+    padding: 9px;
+    z-index: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.logo {
+    float: left;
+    z-index: 1;
+    border: 0;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: -97px;
+    left: 17px;
+}
+.click {
+    z-index: 1;
+    position: relative;
+    bottom: 434px;
+    left: -16px;
+    font-family: Arial;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    text-align: right; 
+}
+.click ul {
+    /* Per treure els pics de la llista */
+    list-style: none; 
+
+}
+.click ul li {
+    display: inline-block;
+}
+.click ul li a{
+    /* aquest atribut serveix per editar
+    l'apariència dels enllaços i treure'n
+    el subratllat característic */
+    text-decoration: none;
+    padding: 15px;
+}
+.home {
+    position: relative;
+    padding: 10px 0px;
+    background-color: white;
+    border: medium outset grey;
+}
+.about {
+    position: relative;
+    padding: 10px 0px;
+    background-color: white;
+    border: medium outset grey;
+}
+.contact {
+    position: relative;
+    padding: 10px 0px;
+    background-color: white;
+    border: medium outset grey;
+}
+#eventshome {
+    width: 300;
+    height: 500;
+    margin: auto;
+    margin-left: 70px;
+    position: relative;
+    float: left;
+    bottom: -57px;
+    font-family: Arial;
+}
+.eventstitle {
+    font-size: 22px;
+    padding: 0px 0px 15px;
+}
+#eventshome p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.indent {
+    text-indent: 14px;
+    padding: 0px 0px 15px;
+}
+#AbUscase {
+    width: 300;
+    height: 500;
+    margin: auto;
+    margin-left: 233px;
+    position: relative;
+    float: left;
+    bottom: 50px;
+    font-family: Arial;
+}
+#AbUscase h2 {
+    font-size: 22px;
+    padding-bottom: 9px;
+}
+.paragraphindent {
+    padding-left: 27px;
+    padding-bottom: 25px;
+}
+#contactcase {
+    width: 300;
+    height: 500;
+    margin: auto;
+    margin-left: 216px;
+    position: relative;
+    float: left;
+    bottom: 91px;
+    font-family: Arial;   
+}
+#contactcase h2 {
+    font-size: 22px;
+    padding-bottom: 9px;    
+}
+.notext {
+    color: white;
+}
+.paragindone {
+    padding-left: 3px;
+    padding-bottom: 25px;
+}
+.paragindtwo {
+    padding-left: 27px;
+    padding-bottom: 25px;
+}
